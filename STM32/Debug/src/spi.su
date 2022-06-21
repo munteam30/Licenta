@@ -1,0 +1,3 @@
+spi.c:4:6:beginTransmission	8	static
+spi.c:9:6:endTransmission	8	static
+spi.c:15:9:transmitByte	16	static

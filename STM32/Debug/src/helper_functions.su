@@ -1,0 +1,5 @@
+core_cm3.h:1014:22:NVIC_SetPriority	16	static
+core_cm3.h:1139:26:SysTick_Config	16	static
+helper_functions.c:7:6:initClocks	8	static
+helper_functions.c:23:6:delay_ms	24	static
+helper_functions.c:32:6:init_systick	8	static

@@ -1,0 +1,2 @@
+uart.c:3:6:initUart	32	static
+uart.c:28:5:_write	32	static

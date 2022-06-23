@@ -1,4 +1,4 @@
-# Licenta
+# Sistem de detecție și corecție a mersului uman
 
   Lucrarea de fată are ca scop realizarea unui dispozitiv fiabil, capabil să monitorizeze acțiunile motorii pe care utilizatorul le realizează și să detecteze când acesta are sănătatea pusă în pericol din cauza unei căzături.  Deasemenea, ne dorim ca dispozitivul să fie capabil să recunoască ce acțiune realizează utilizatorul, utilizând o metodă de învățare automată pentru a putea clasifica natura acestei activități. Dispozitivul este capabil să detecteze acțiuni din 4 clase:
   

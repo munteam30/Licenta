@@ -56,10 +56,10 @@ int16_t filtrareValoriMediiY(int16_t variabila);
 int main(void)
 {	initClocks();
 	initUart();
-  //  initGyro();
+        initGyro();
 
     //delay_ms(10000); //10ms
-    printf("mihai");
+   
     int16_t poz[2];
     int16_t acc[2];
     int16_t gyroValues[6];
@@ -129,7 +129,7 @@ int main(void)
     	//printf("X= %d,Y= %d,Z= %d\n", poz[0] , poz[1],poz[2] );
 
 // Print pozitii si accelerari
-    	printf("Mihai");
+    	
 
     	printf("%d %d ", acc[0], acc[1]);
     	delay_ms(2000);  // ------> desi scrie dealy milisec inseamna delay micro sec deci pt o sec ai nevoie de 1 000 000

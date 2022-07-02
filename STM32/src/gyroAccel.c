@@ -95,6 +95,7 @@ void initGyro(void)
     ////(void)transmitByte(0x8Cu); // CTRL2_G: Set gyro ODR=1.66 kHz, FS_G = 2000 dps
     //(void)transmitByte(0x7Cu); // CTRL2_G: Set gyro ODR=833 Hz, FS_G = 2000 dps
     (void)transmitByte(0x6Cu); // CTRL2_G: Set gyro ODR=416, FS_G = 2000 dps
+    (void)transmitByte(0x58u); // TAP_CFG: TILT_EN = 1
     (void)transmitByte(0xC4u); // CTRL3_C: Set BOOT = 1, BDU = 1, IF_INC = 1 (keep default)
     endTransmission();
 
